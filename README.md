@@ -1,70 +1,121 @@
-# How to Create a Free Windows 10 RDP using GitHub | Getscreen Method | 30 min timelimit bypassed
 
-Hey there, tech enthusiasts! Welcome to this step-by-step guide on setting up your very own free Windows 10 RDP using the powerful combo of GitHub and the Getscreen method. 🚀
+[![Version][version-shield]](version-url)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Discord-Bot&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 
-## Introduction
+<br />
 
-Let's kick things off by breaking down the process into simple, digestible chunks. No worries if you're new to this – we'll walk you through it. If you haven't got a GitHub account yet, don't sweat it! Check out our quick [video tutorial on creating a GitHub account](https://youtu.be/oox_-U_4O7Q) – it'll only take about 3 minutes, and you'll be all set.
+[![Run on Repl.it](https://repl.it/badge/github/CorwinDev/Discord-Bot)](https://replit.com/@CorwinDeveloper/Discord-Bot-v14?v=1)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/CorwinDev/Discord-Bot)
 
-## Getscreen Account Setup
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/corwindev/Discord-Bot">
+    <img src="https://cdn.discordapp.com/attachments/778665159316209748/1055857473749274694/Corwin-1-modified.png" alt="Pbot-plus" width="200" height="200">
+  </a>
 
-Alright, let's get that [Getscreen](https://getscreen.me/en/registration) account rolling. Creating an account there is a breeze, and I'll show you how – it'll take literally 1 second! Just copy your Getscreen email to a textpad – we promise it's that easy. ⚡
+  <h3 align="center">Discord-Bot</h3>
 
-## Downloading the GitHub Workflow
+  <p align="center">
+    Discord-bot is a Advanced Multipurpose bot containing more than 400+ Commands. It can do Moderation, Tickets, Radio, Games, Giveaways, Customisation, Economy, Leveling, Invites, Messages, Utilities, Suggestions, Server Stats etc.
+    <br />
+    <br />
+    <a href="https://github.com/corwindev/discord-bot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/corwindev/discord-bot/issues">Request Feature</a>
+  </p>
+</p>
+<!-- ABOUT THE PROJECT -->
 
-Now, let's snag that GitHub workflow. In the [description](https://bit.ly/GetScreen), you'll find links to different mirrors. It's like having backup plans for your backup plans! If the server decides to snooze, you're covered. Oh, and don't worry about mirror links – we've got an explanatory [video tutorial on how to use mirror links](https://bit.ly/GetScreen) in case you're curious.
+## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px">》Description 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=corwindev&repo=Discord-bot&theme=tokyonight)](https://github.com/corwindev/Discord-bot)
+## <img src="https://cdn.discordapp.com/emojis/852881450667081728.gif" width="20px" height="20px">》Feature
+- [x] Slash Commands 
+- [x] Upto date with Discord.js v14
+- [x] Automod
+- [X] Custom Commands
+- [x] Music Commands
+- [x] Tickets
+- [x] Utility Commands
+- [x] Suggestions 
+- [x] Reaction Roles
+- [x] Family
+- [x] Giveaways 
+- [x] Easy to use
+- [x] Don't wanna host it yourself? [Use our public bot](https://discord.com/api/oauth2/authorize?client_id=1051755231848972328&permissions=8&scope=bot%20applications.commands)
+## <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="25px" height="25px">》Screenshots
+<br />
+<p align="center">
+  <a href="https://github.com/corwindev/discord-bot">
+    <img src="https://cdn.discordapp.com/attachments/778665159316209748/1055832339328024666/207117434-d98356b1-bf19-418e-9e12-0ef83e0d9a21.png">
+  </a>
+</p>
 
-## Video Tutorial In Youtube (H0w To)
-# [Watch The Video](https://youtu.be/VdpiASPO1O4)
+## <img src="https://cdn.discordapp.com/emojis/1009754836314628146.gif" width="25px" height="25px">》Requirements
+- NodeJs v17+
+- Java v13 for lavalink server.
+- Discord Token. Get it from [Discord Developers Portal](https://discord.com/developers/applications)
+- Mongo Database URL. Get it from [MongoDB](https://cloud.mongodb.com/v2/635277bf9f5c7b5620db28a4#clusters)
+- Giphy API Token. Get it from [Giphy Developers Portal](https://developers.giphy.com/)
+- APi Key for OpenAi `for ai chatbot`. Get it from [OpenAi Developers Portal](https://beta.openai.com/account/api-keys)
+- ClientID `for loading slash commands.`
+- Spotify client ID `for spotify support` [Click here to get](https://developer.spotify.com/dashboard/login)
+- Spotify client Secret `for spotify support` [Click here to get](https://developer.spotify.com/dashboard/login)
 
-## Let's Get Started!
+## <img src="https://cdn.discordapp.com/emojis/814216203466965052.png" width="25px" height="25px">》Installation Guide
 
-Alright, tech champs, it's time to put the pieces together. You've got your GitHub account, your shiny new Getscreen account, and that trusty GitHub workflow. Ready to dive in? Let's roll!
+### <img src="https://cdn.discordapp.com/emojis/1028680849195020308.png" width="15px" height="15px"> Installing via [NPM](https://www.npmjs.com/)
+Clone the repo by running
+```bash
+git clone https://github.com/Corwindev/Discord-Bot.git
+```
+After cloning Fill all requirement in `.env` **(rename `.env.example` to `.env`)**, then run
 
-### Tutorial Walkthrough
+```bash
+npm install
+```
+To start your bot 
 
-1. Head over to GitHub, create a new public repository, and click that "Upload files" button.
-2. Remember that workflow file you downloaded? Drag and drop those files like a pro coder!
-3. If you're on mobile, don't stress – we've got your back.
+```js
+node src/index.js
+```
+### <img src="https://cdn.discordapp.com/emojis/1055803759831294013.png" width="20px" height="20px"> 》Notice
+> You may not claim this as your own!! **Copyright to Graphix Development and CorwinDev**
 
-### Adding Workflow Files
+> Discord-Bot is a Multipurpose Discord bot base in [Discord.js](https://github.com/Discordjs/discordjs)
+If you liked this repository, feel free to leave a star ⭐ to motivate me!
 
-1. Upload that readme.md file first.
-2. Create a new file, name it ".github/workflows/test", commit those changes.
-3. Add two workflow files – easy-peasy!
+## <img src="https://cdn.discordapp.com/emojis/1036083490292244493.png" width="15px" height="15px">》Support Server
+[![DiscordBanner](https://invidget.switchblade.xyz/jVeC7cFX5T)](https://discord.gg/jVeC7cFX5T)
+[Support Server](https://discord.gg/jVeC7cFX5T) - Discord-Bot's Support Server Invite
 
-### ADDING YOUR GETSCREEN MAIL TO WORKFLOWS (importaint part)
+# <img src="https://cdn.discordapp.com/emojis/1015745034076819516.png" width="25px" height="25px">》Faq
+> How to get access to Developers Commands? You will have to set them up via MongoDB or run the below command.
 
-1. Click one of workflows and find this "EMAIL_SECRET=Your Get Screen Mail" 
-2. Replace your copied mail in here , ex: "EMAIL_SECRET=chamoddisala85@gmail.com"
-3. Do same as to the other workflow. If you dosen't get this right you will not get rdp so watch the video
+```bash
+npm add-dev YOUR_ID
+```
+# Donate
 
-### Running the Workflow
+ By Donating, You Will Help Me To Maintain This Project 
 
-Woo-hoo! Here comes the fun part:
-1. Click on the "Actions" tab.
-2. Choose one of those workflows.
-3. Hit "Run workflow".
-4. If you don't see your run, just give it a quick refresh.
-5. Click on the workflow run, hit "Build now", and then... it's waiting time!
+<img src="https://cdn.discordapp.com/emojis/809085860632985630.png" width="15px" height="15px"> 》[Sponsor](https://github.com/sponsors/CorwinDev)
 
-### Getscreen and Connect
 
-Once the workflow wraps up:
-1. Check Getscreen – your RDP will be grinning with a green dot!
-2. Green means go, right? Click "Connect" and say hello to your RDP buddy.
-3. Runneradmin, prepare to meet your new best friend!
-
-### Speed Test and Conclusion
-
-Let's wrap it up with a snappy speed test – after all, you deserve a lightning-fast RDP experience! There you have it, your very own Windows 10 RDP, set up and ready for action.
-
-## Final Thoughts
-
-As we wrap things up, here's a tip – if the first run doesn't quite get you an RDP, don't stress. Give it another shot, and remember, moderation is key. Use this method wisely to keep it going!
-
-## Connect with Us
-
-If you're itching for more solutions, have fresh ideas, or just want to dive into RDP discussions, hop onto our [Telegram channel](https://t.me/TheDisala4U). For deeper dives, join our [discussion group](https://t.me/Disala4uChat) and let's brainstorm together!
-
-Thanks for joining us on this tech journey. Remember, tech adventures can be both fun and straightforward. Drop a star ⭐️ if you found this guide helpful, hit that "Follow" button, and we'll catch you in the next tutorial. Stay tech-savvy, stay awesome! 🎉
+[version-shield]: https://img.shields.io/github/package-json/v/CorwinDev/Discord-Bot?style=for-the-badge
+[version-url]: https://github.com/brblacky/WaveMusic
+[contributors-shield]: https://img.shields.io/github/contributors/CorwinDev/Discord-Bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/Corwindev/Discord-Bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Corwindev/Discord-Bot.svg?style=for-the-badge
+[forks-url]: https://github.com/Corwindev/Discord-Bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/Corwindev/Discord-Bot.svg?style=for-the-badge
+[stars-url]: https://github.com/Corwindev/Discord-Bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Corwindev/Discord-Bot.svg?style=for-the-badge
+[issues-url]: https://github.com/Corwindev/Discord-Bot/issues
+[license-shield]: https://img.shields.io/github/license/Corwindev/Discord-Bot.svg?style=for-the-badge
+[license-url]: https://github.com/Corwindev/Discord-Bot/blob/master/LICENSE
